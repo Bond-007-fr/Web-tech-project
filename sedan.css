@@ -1,0 +1,35 @@
+.logo {
+    text-align: center;
+}
+.img {
+    display: inline-block;
+    flex: 1;
+}
+.img-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+.info {
+    display: inline-block;
+    vertical-align: top;
+    flex: 2;
+}
+.sedan-text {
+    font-size: 20px;
+    
+}
+.sedan {
+    display: inline-block;
+}
+.sedan-img {
+    float: left;
+}
+.container {
+    display: flex;
+}
+.meter {
+    
+    height: 30px;
+    width: 200px;
+}
