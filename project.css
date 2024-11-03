@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.car-header {
+    padding: 8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.img {
+    display: inline-block;
+    flex: 1;
+}
+.img-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+.info {
+    display: inline-block;
+    vertical-align: top;
+    flex: 2;
+}
+.sedan-text {
+    font-size: 18px;
+    
+}
+.sedan {
+    display: inline-block;
+}
+.sedan-img {
+    float: left;
+    height: 480px;
+    width: 640px;
+}
+.container-sedan {
+    display: flex;
+}
+.container-suv {
+    display: flex;
+}
+.container-hatchback {
+    display: flex;
+}
+.meter {
+    
+    height: 30px;
+    width: 200px;
+}
+body {
+    background-color: gainsboro;
+}
+.brand-header {
+    background-color: grey;
+    margin-top: 20px;
+}
+.brand-logo {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block  ;
+}
+.toyota-img {
+    margin-top: 50px;
+}
+.toyota-info {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    font: 800;
+}
+.bmw-info {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.mercedes-info {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
